@@ -1,0 +1,72 @@
+.heading{
+
+    color: #4D4F62;
+    
+	margin-bottom: 64px;
+}
+.titleH3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 275;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    
+}
+.titleH2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    text-align: center;
+
+}
+.captionContainer{
+    padding-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caption{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1041666641831398px;
+    text-align: center;
+    width: 540px;
+}
+@media screen and (max-width: 400px) {
+    .titleH3{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 275;
+        line-height: 36px;
+        letter-spacing: 0.1666666716337204px;
+        text-align: center;
+
+        
+    }
+    .titleH2{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0.1666666716337204px;
+        text-align: center;
+
+    
+    }
+    .caption{
+        width: auto;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.1041666641831398px;
+        text-align: center;
+
+    }
+  }
